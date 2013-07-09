@@ -109,7 +109,7 @@ int main(int argc,char **argv) {
     int returnvalue=0;
 
     if (geteuid()!=0) {
-	printf("This program should only be ran by root or be installed as setuid root.\n");
+	printf("This program should only be run by root or be installed as setuid root.\n");
 	// exit(1);
     }
 
